@@ -40,6 +40,7 @@ I have experience in computer vision (both Image Editing and Low-level vision) a
 
 1. <strong><strong>Image Editing</strong></strong> 
     * Conducted research at Alibaba's Tongyi Lab on adaptive and controllable garment dragging based on diffusion models.
+    * *<strong><strong>Chen Duosheng </strong></strong>, Chen Binghui, Geng Yifeng, Bo Liefeng. AdaptiveDrag:Semantic-Driven Dragging on Diffusion-Based Image Editing. [[AdaptiveDrag]](https://github.com/Calvin11311/AdaptiveDrag)
     <!-- * Training: Design more effective training system and algorithms, example includes [BMTrain](https://github.com/OpenBMB/BMTrain). -->
 2. <strong><strong>LLM applications</strong></strong> 
     <!-- * CodeLLM
