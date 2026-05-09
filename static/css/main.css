@@ -54,6 +54,7 @@ section .main-body{
 }
 
 
+
 .bg-gradient-primary-to-secondary-light {
     background: linear-gradient(45deg, #fcfcfc, #ffffff) !important;
 }
@@ -61,6 +62,7 @@ section .main-body{
 .bg-gradient-primary-to-secondary-gray {
     background: linear-gradient(45deg, #f0f0f0, #f1f1f1) !important;
 }
+
 
 
 
@@ -88,15 +90,19 @@ section .main-body{
 
 
 
+
 .photo {
     position: relative;
 }
+
+
 
 .photo img {
     margin-right: 10%;
     height: 12rem;
     margin-top: 8rem;
 }
+
 
 
 .photo .screen {
@@ -128,3 +134,396 @@ section .main-body{
 
 }
 
+/* ========== Publications Card Styles ========== */
+.pub-item {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+    padding: 1.2rem;
+    background: #ffffff;
+    border-radius: 12px;
+    border: 1px solid #e8e8e8;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    transition: all 0.25s ease;
+    align-items: flex-start;
+}
+
+.pub-item:hover {
+    box-shadow: 0 6px 20px rgba(102,126,234,0.15);
+    border-color: #667eea;
+    transform: translateY(-2px);
+}
+
+.pub-item img {
+    width: 240px;
+    min-width: 200px;
+    max-width: 35%;
+    height: auto;
+    max-height: 180px;
+    object-fit: contain;
+    border-radius: 8px;
+    background: #f8f9fa;
+    padding: 6px;
+    border: 1px solid #e0e0e0;
+}
+
+.pub-info {
+    flex: 1;
+    min-width: 0;
+}
+
+.pub-title {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #222;
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+}
+
+.pub-authors {
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 0.4rem;
+}
+
+.pub-authors strong {
+    color: #333;
+}
+
+.pub-venue {
+    font-size: 0.9rem;
+    color: #667eea;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.pub-links {
+    margin-bottom: 0.6rem;
+}
+
+.pub-links a {
+    display: inline-block;
+    margin-right: 0.6rem;
+    font-size: 0.85rem;
+    color: #667eea;
+    text-decoration: none;
+    border: 1px solid #667eea;
+    padding: 2px 10px;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+}
+
+.pub-links a:hover {
+    background: #667eea;
+    color: white;
+}
+
+/* Publication tags */
+.pub-tag {
+    display: inline-block;
+    padding: 3px 12px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+}
+
+.tag-lowlevel {
+    background: linear-gradient(135deg, #e8f5e9, #c8e6c9);
+    color: #2e7d32;
+}
+
+.tag-imageedit {
+    background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+    color: #1565c0;
+}
+
+.tag-llm {
+    background: linear-gradient(135deg, #fce4ec, #f8bbd0);
+    color: #c62828;
+}
+
+/* Publication meta: links + tags on same line */
+.pub-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    flex-wrap: wrap;
+    margin-bottom: 0.5rem;
+}
+
+.pub-tags {
+    display: flex;
+    gap: 0.4rem;
+    flex-wrap: wrap;
+}
+
+/* New tag types */
+.tag-transformer {
+    background: linear-gradient(135deg, #e8eaf6, #c5cae9);
+    color: #283593;
+}
+
+.tag-deblurring {
+    background: linear-gradient(135deg, #e0f2f1, #b2dfdb);
+    color: #00695c;
+}
+
+.tag-dataset {
+    background: linear-gradient(135deg, #fff3e0, #ffe0b2);
+    color: #e65100;
+}
+
+.tag-diffusion {
+    background: linear-gradient(135deg, #f3e5f5, #e1bee7);
+    color: #6a1b9a;
+}
+
+/* 响应式：移动端堆叠布局 */
+@media screen and (max-width: 768px) {
+    .pub-item {
+        flex-direction: column;
+    }
+    .pub-item img {
+        width: 100%;
+        max-width: 100%;
+        max-height: 200px;
+    }
+}
+
+/* ========== Paper Slider Styles (Horizontal) ========== */
+.paper-slider {
+    margin: 1.5rem 0;
+    overflow: hidden;
+}
+
+.paper-slider .paper-track {
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 0.5rem 0 1rem 0;
+    scrollbar-width: thin;
+    scrollbar-color: #667eea #f1f1f1;
+}
+
+.paper-slider .paper-track::-webkit-scrollbar {
+    height: 6px;
+}
+
+.paper-slider .paper-track::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 3px;
+}
+
+.paper-slider .paper-track::-webkit-scrollbar-thumb {
+    background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+    border-radius: 3px;
+}
+
+.paper-slider .paper-card {
+    flex: 0 0 auto;
+    width: 280px;
+    padding: 1rem 1.25rem;
+    background: linear-gradient(135deg, #f8f9fa 0%, #fff 100%);
+    border-radius: 12px;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+    animation: slideInHorizontal 0.6s ease forwards;
+    opacity: 0;
+}
+
+.paper-slider .paper-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(102, 126, 234, 0.2);
+    border-color: #667eea;
+}
+
+/* 错开动画延迟 */
+.paper-slider .paper-card:nth-child(1) { animation-delay: 0.1s; }
+.paper-slider .paper-card:nth-child(2) { animation-delay: 0.2s; }
+.paper-slider .paper-card:nth-child(3) { animation-delay: 0.3s; }
+.paper-slider .paper-card:nth-child(4) { animation-delay: 0.4s; }
+.paper-slider .paper-card:nth-child(5) { animation-delay: 0.5s; }
+
+@keyframes slideInHorizontal {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.paper-slider .news-year {
+    display: inline-block;
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: #667eea;
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.5px;
+}
+
+.paper-slider .news-text {
+    font-size: 1rem;
+    color: #444;
+    line-height: 1.5;
+}
+
+.paper-slider .news-text strong {
+    color: #333;
+}
+
+/* 响应式：移动端卡片宽度自适应 */
+@media screen and (max-width: 576px) {
+    .paper-slider .paper-card {
+        width: 240px;
+    }
+}
+
+/* ========== News Timeline Styles ========== */
+.news-container {
+    margin: 1.5rem 0;
+    max-height: 400px;
+    overflow-y: auto;
+    padding-right: 0.5rem;
+    position: relative;
+}
+
+/* 自定义滚动条样式 */
+.news-container::-webkit-scrollbar {
+    width: 6px;
+}
+
+.news-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 3px;
+}
+
+.news-container::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #667eea 0%, #764ba2 100%);
+    border-radius: 3px;
+}
+
+.news-container::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, #5568d3 0%, #5f3a8f 100%);
+}
+
+.news-timeline {
+    position: relative;
+    padding-left: 2rem;
+    margin-top: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.news-timeline::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(180deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+    border-radius: 2px;
+}
+
+.news-item {
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+/* 时间点圆点 */
+.news-dot {
+    position: absolute;
+    left: -2.35rem;
+    top: 0.3rem;
+    width: 14px;
+    height: 14px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 50%;
+    border: 3px solid #fff;
+    box-shadow: 0 2px 8px rgba(102, 126, 234, 0.4);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.news-item:hover .news-dot {
+    transform: scale(1.3);
+    box-shadow: 0 4px 16px rgba(102, 126, 234, 0.6);
+}
+
+.news-content {
+    background: linear-gradient(135deg, #f8f9fa 0%, #fff 100%);
+    padding: 1rem 1.25rem;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.news-item:hover .news-content {
+    border-color: #667eea;
+    box-shadow: 0 4px 20px rgba(102, 126, 234, 0.15);
+    transform: translateX(5px);
+}
+
+.news-year {
+    display: inline-block;
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: #667eea;
+    margin-bottom: 0.3rem;
+    letter-spacing: 0.5px;
+}
+
+.news-text {
+    font-size: 1rem;
+    color: #444;
+    line-height: 1.6;
+}
+
+.news-text strong {
+    color: #333;
+    background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+    padding: 1px 6px;
+    border-radius: 4px;
+}
+
+/* 悬停时的脉冲动画 */
+@keyframes pulse {
+    0%, 100% { box-shadow: 0 2px 8px rgba(102, 126, 234, 0.4); }
+    50% { box-shadow: 0 4px 20px rgba(102, 126, 234, 0.8); }
+}
+
+.news-item:hover .news-dot {
+    animation: pulse 1.5s infinite;
+}
+
+/* 响应式适配 */
+@media screen and (max-width: 576px) {
+    .news-timeline {
+        padding-left: 1.5rem;
+    }
+    
+    .news-timeline::before {
+        left: 0;
+        width: 2px;
+    }
+    
+    .news-dot {
+        left: -1.8rem;
+        width: 10px;
+        height: 10px;
+    }
+    
+    .news-content {
+        padding: 0.75rem 1rem;
+    }
+    
+    .news-text {
+        font-size: 0.9rem;
+    }
+}

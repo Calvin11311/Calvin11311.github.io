@@ -2,7 +2,7 @@
 
 const content_dir = 'contents/'
 const config_file = 'config.yml'
-const section_names = ['home', 'publications', 'awards', 'project', 'service', 'CV']
+const section_names = ['home', 'research', 'education', 'publications', 'awards', 'project', 'service']
 
 
 window.addEventListener('DOMContentLoaded', event => {
@@ -50,16 +50,30 @@ window.addEventListener('DOMContentLoaded', event => {
     // Marked
     marked.use({ mangle: false, headerIds: false })
     section_names.forEach((name, idx) => {
+        console.log('Loading section:', name);
         fetch(content_dir + name + '.md')
-            .then(response => response.text())
+            .then(response => {
+                console.log('Response for', name, ':', response.status, response.statusText);
+                if (!response.ok) {
+                    throw new Error('HTTP ' + response.status);
+                }
+                return response.text();
+            })
             .then(markdown => {
+                console.log('Markdown loaded for', name, ', length:', markdown.length);
                 const html = marked.parse(markdown);
-                document.getElementById(name + '-md').innerHTML = html;
+                const element = document.getElementById(name + '-md');
+                if (element) {
+                    element.innerHTML = html;
+                    console.log('Content inserted for', name);
+                } else {
+                    console.log('Element not found:', name + '-md');
+                }
             }).then(() => {
                 // MathJax
                 MathJax.typeset();
             })
-            .catch(error => console.log(error));
+            .catch(error => console.log('Error loading ' + name + ':', error));
     })
 
 }); 
