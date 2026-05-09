@@ -2,7 +2,7 @@
 <!-- News Paper Acceptances -->
 <div class="paper-slider">
 
-#### 📰 News **Latest Updates**
+#### 🔥 News **Latest Updates**
 
 <div class="paper-track">
 <div class="paper-card">
@@ -40,8 +40,15 @@ My name is Calvin Chen. I got my bachelor Degree in computer science with Distin
 I have experience in computer vision (both Image Editing and Low-level vision) and Image Editing and LLMs, along with extensive industry research internship experience.
 
 
-#### 📬 Contact<p id="contact-info"></p>
+#### 🎯 My Focus
 
+<div class="focus-highlight">
+
+🔍 **ANYTHING ABOUT** &nbsp;&nbsp;|&nbsp;&nbsp; ⚡ Deep Learning &nbsp;·&nbsp; 👁 Computer Vision &nbsp;·&nbsp; 🧠 LLMs &nbsp;·&nbsp; 📈 Fintech
+
+</div> 
+
+#### 📬 Contact<p id="contact-info"></p>
 * I am very enthusiastic about discussing academic issues or any interesting project-related topics! If you'd like to engage in a discussion or collaborate, feel free to contact me via email at any time.
 
 * If you're an undergraduate student feeling uncertain, especially from a diverse background, and hope to gain some learning experiences from me, I also warmly welcome that!
