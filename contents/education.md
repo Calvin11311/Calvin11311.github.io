@@ -1,6 +1,3 @@
-
-#### 🎓 Education
-
 <div style="display:flex; gap:3rem; flex-wrap:wrap; margin:1.5rem 0;">
 
 <div style="flex:1; min-width:260px; display:flex; align-items:center; gap:1rem; padding:1rem 1.2rem; background:linear-gradient(135deg,#f8f9fa 0%,#fff 100%); border-radius:12px; border:1px solid #e0e0e0; box-shadow:0 2px 12px rgba(0,0,0,0.06);">

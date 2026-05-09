@@ -20,6 +20,7 @@ For full paper list, please refer to my [Google Scholar](https://scholar.google.
     <div class="pub-meta">
       <div class="pub-links">
         <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Chen_A_Polarization-Aided_Transformer_for_Image_Deblurring_via_Motion_Vector_Decomposition_CVPR_2025_paper.pdf" target="_blank">[Paper]</a>
+        <a href="https://github.com/Calvin11311/Motion-Vector-Decomposition-Transformer" target="_blank">[Code]</a>
       </div>
       <div class="pub-tags">
         <span class="pub-tag tag-lowlevel">Low-level Vision</span>
@@ -80,6 +81,7 @@ For full paper list, please refer to my [Google Scholar](https://scholar.google.
     <div class="pub-meta">
       <div class="pub-links">
         <a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Zhou_Adapt_or_Perish_Adaptive_Sparse_Transformer_with_Attentive_Feature_Refinement_CVPR_2024_paper.pdf" target="_blank">[Paper]</a>
+        <a href="https://github.com/joshyZhou/AST" target="_blank">[Code]</a>
       </div>
       <div class="pub-tags">
         <span class="pub-tag tag-lowlevel">Low-level Vision</span>
@@ -104,11 +106,12 @@ For full paper list, please refer to my [Google Scholar](https://scholar.google.
       Shihao Zhou, Jinshan Pan, <strong>Duosheng Chen</strong>, Yaopeng Dong, Jufeng Yang
     </div>
     <div class="pub-venue">
-      <em>IEEE Transactions on Image Processing (TIP) 2026</em>
+      <em>TIP 2026</em>
     </div>
     <div class="pub-meta">
       <div class="pub-links">
         <a href="https://ieeexplore.ieee.org/document/11495061" target="_blank">[Paper]</a>
+        <a href="https://github.com/joshyZhou/HINT" target="_blank">[Code]</a>
       </div>
       <div class="pub-tags">
         <span class="pub-tag tag-lowlevel">Low-level Vision</span>
@@ -139,6 +142,7 @@ For full paper list, please refer to my [Google Scholar](https://scholar.google.
     <div class="pub-meta">
       <div class="pub-links">
         <a href="https://arxiv.org/pdf/2404.00288" target="_blank">[Paper]</a>
+        <a href="https://github.com/joshyZhou/FPro" target="_blank">[Code]</a>
       </div>
       <div class="pub-tags">
         <span class="pub-tag tag-lowlevel">Low-level Vision</span>
@@ -170,6 +174,7 @@ For full paper list, please refer to my [Google Scholar](https://scholar.google.
     <div class="pub-meta">
       <div class="pub-links">
         <a href="https://www.researchgate.net/publication/396458094_FlareX_A_Physics-Informed_Dataset_for_Lens_Flare_Removal_via_2D_Synthesis_and_3D_Rendering" target="_blank">[Paper]</a>
+        <a href="https://github.com/qulishen/FlareX" target="_blank">[Code]</a>
       </div>
       <div class="pub-tags">
         <span class="pub-tag tag-lowlevel">Low-level Vision</span>

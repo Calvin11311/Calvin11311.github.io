@@ -2,7 +2,7 @@
 
 const content_dir = 'contents/'
 const config_file = 'config.yml'
-const section_names = ['home', 'research', 'education', 'publications', 'awards', 'project', 'service']
+const section_names = ['home', 'research', 'education', 'experience', 'publications', 'awards', 'project', 'service']
 
 
 window.addEventListener('DOMContentLoaded', event => {
