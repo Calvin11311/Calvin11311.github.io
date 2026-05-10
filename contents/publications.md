@@ -46,7 +46,7 @@ For full paper list, please refer to my [Google Scholar](https://scholar.google.
       <strong>Duosheng Chen</strong>, Binghui Chen, Yifeng Geng, Liefeng Bo
     </div>
     <div class="pub-venue">
-      <em>arXiv</em>
+      <em>arXiv:2410.12696</em>
     </div>
     <div class="pub-meta">
       <div class="pub-links">
@@ -86,6 +86,7 @@ For full paper list, please refer to my [Google Scholar](https://scholar.google.
       <div class="pub-tags">
         <span class="pub-tag tag-lowlevel">Low-level Vision</span>
         <span class="pub-tag tag-transformer">Transformer</span>
+        <span class="pub-tag tag-dual_branch">Dual-branch</span>
       </div>
     </div>
   </div>
@@ -116,6 +117,7 @@ For full paper list, please refer to my [Google Scholar](https://scholar.google.
       <div class="pub-tags">
         <span class="pub-tag tag-lowlevel">Low-level Vision</span>
         <span class="pub-tag tag-transformer">Transformer</span>
+        <span class="pub-tag tag-cnns">CNNs</span>
       </div>
     </div>
   </div>
@@ -177,7 +179,7 @@ For full paper list, please refer to my [Google Scholar](https://scholar.google.
         <a href="https://github.com/qulishen/FlareX" target="_blank">[Code]</a>
       </div>
       <div class="pub-tags">
-        <span class="pub-tag tag-lowlevel">Low-level Vision</span>
+        <span class="pub-tag tag-deflare">Deflare</span>
         <span class="pub-tag tag-dataset">Dataset</span>
       </div>
     </div>

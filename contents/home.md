@@ -1,38 +1,51 @@
 #### 🎯 My Focus
 
 <div class="focus-highlight">
-🔍 **ANYTHING ABOUT** &nbsp;&nbsp;|&nbsp;&nbsp; ⚡ Deep Learning &nbsp;·&nbsp; 👁 Computer Vision &nbsp;·&nbsp; 🧠 LLMs &nbsp;·&nbsp; 📈 Fintech
+<span class="focus-anything">ANYTHING ABOUT</span>
+<span class="focus-sep">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+<span class="focus-keyword-dl">⚡ Deep Learning</span>
+<span class="focus-sep">&nbsp;&nbsp;·&nbsp;&nbsp;</span>
+<span class="focus-keyword-cv">👁 Computer Vision</span>
+<span class="focus-sep">&nbsp;&nbsp;·&nbsp;&nbsp;</span>
+<span class="focus-keyword-llm">🧠 LLMs</span>
+<span class="focus-sep">&nbsp;&nbsp;·&nbsp;&nbsp;</span>
+<span class="focus-keyword-ft">📈 Fintech</span>
 </div> 
 
 <!-- News Paper Acceptances -->
 <div class="paper-slider">
 
-#### 🔥 News **Latest Updates**
+#### 🔥 News
 
 <div class="paper-track">
 <div class="paper-card">
 <span class="news-year">2026.04</span>
-<div class="news-text">🎉 1 paper accepted to <strong>TIP 2026</strong></div>
+<div class="news-text">🎉 1 paper accepted to<br>
+<strong>TIP 2026</strong></div>
 </div>
 
 <div class="paper-card">
 <span class="news-year">2025.09</span>
-<div class="news-text">🎉 1 paper accepted to <strong>NeurIPS 2025</strong></div>
+<div class="news-text">🎉 1 paper accepted to<br>
+<strong>NeurIPS 2025</strong></div>
 </div>
 
 <div class="paper-card">
 <span class="news-year">2025.06</span>
-<div class="news-text">🎉 1 paper accepted to <strong>CVPR 2025 [Highlight]</strong></div>
+<div class="news-text">🎉 1 paper accepted to<br>
+<strong>CVPR 2025 [Highlight]</strong></div>
 </div>
 
 <div class="paper-card">
 <span class="news-year">2024.10</span>
-<div class="news-text">🎉 1 paper accepted to <strong>ECCV 2024</strong></div>
+<div class="news-text">🎉 1 paper accepted to<br>
+<strong>ECCV 2024</strong></div>
 </div>
 
 <div class="paper-card">
 <span class="news-year">2024.06</span>
-<div class="news-text">🎉 1 paper accepted to <strong>CVPR 2024</strong></div>
+<div class="news-text">🎉 1 paper accepted to<br>
+<strong>CVPR 2024</strong></div>
 </div>
 </div>
 

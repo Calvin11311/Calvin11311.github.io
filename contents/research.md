@@ -6,7 +6,7 @@
 
 2. **Image Editing**
     * Conducted research at Alibaba's Tongyi Lab on adaptive and controllable garment dragging based on diffusion models.
-    * *Chen Duosheng, Chen Binghui, Geng Yifeng, Bo Liefeng. AdaptiveDrag: Semantic-Driven Dragging on Diffusion-Based Image Editing. [[AdaptiveDrag]](https://github.com/Calvin11311/AdaptiveDrag)
+    * Chen Duosheng, Chen Binghui, Geng Yifeng, Bo Liefeng. AdaptiveDrag: Semantic-Driven Dragging on Diffusion-Based Image Editing. [[AdaptiveDrag]](https://github.com/Calvin11311/AdaptiveDrag)
 
 3. **LLM Applications**
     * RAG Model: Project on Accurate Extraction of Disclosed Information from Large-Model-Based Wealth Management Products.
